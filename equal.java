@@ -5,8 +5,8 @@ public class equal {
         String strg3 = new String("hai");
    
         System.out.println(strg1 == strg2);
-        System.out.println(strg1 == strg3);
-        System.out.println(strg1.equals(strg3));
+        System.out.println(strg1 == strg3); //== is absolute equals value
+        System.out.println(strg1.equals(strg3)); //equals give java power to change to positive answer (true)
         System.out.println(strg1.equals(strg2));
     }
 }
