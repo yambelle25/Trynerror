@@ -1,8 +1,7 @@
 public class Student {
     
     private String name;
-    private int[] scores;
-    private String subjects;  // Array for Math, Science, and English scores
+    private int[] scores; // Array for Math, Science, and English scores
     private double averageScore;
 
  
@@ -21,16 +20,6 @@ public class Student {
         this.name = name;
     }
 
-    public String getSubjects() {
-        return name;
-    }
-
-
-    public void setSubjects(String subjects) {
-        this.subjects = subjects;
-    }
-
-  
     public int[] getScores() {
         return scores;
     }
