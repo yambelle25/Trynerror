@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.Scanner;
 
 // Continous from student
 public class studentSystem {
     public static void main(String[] args) {
         
-        Student[] students = new Student [5];        
+        Student[] students = new Student [5];
         
         students[0] = new Student("Maryam", new int[]{83, 92, 78});
         students[1] = new Student("Radiatul", new int[]{88, 72, 81});
@@ -18,7 +18,7 @@ public class studentSystem {
             char grade = student.assignGrade(); 
 
             
-            System.out.println("Student: " + student.getName());
+            System.out.println("\n Student:" + student.getName());
             System.out.println("Average Score: " + average);
             System.out.println("Grade: " + grade);
         }
