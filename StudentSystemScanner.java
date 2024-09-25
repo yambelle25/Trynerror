@@ -8,7 +8,7 @@ public class StudentSystemScanner {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < StudentScanners.length; i++){
-            System.out.println("Enter name of student" + (i+1) +" :");
+            System.out.println("\n Enter name of student" + (i+1) +" :");
             String name = scanner.nextLine();
 
             System.out.println("Enter your Score Math");
@@ -32,7 +32,7 @@ public class StudentSystemScanner {
             char grade = StudentScanner.assignGrade(); 
 
             
-            System.out.println("\n Student:" + StudentScanner.getName());
+            System.out.println("\n Student:" + name);
             System.out.println("Your Average Score: " + average);
             System.out.println(grade);
         }

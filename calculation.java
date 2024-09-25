@@ -1,7 +1,7 @@
 public class calculation {
 
     private String name;
-    private int age;
+    private int age = ;
     private int yos;
     private double gpa1;
     private double gpa2;
